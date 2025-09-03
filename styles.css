@@ -1,0 +1,109 @@
+/* Center alignment for the header */
+h1.custom-header {
+    font-family: 'Trebuchet MS';
+    font-size: 100px;
+    font-weight: 600;
+    background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+    color: transparent;
+    text-align:center;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  h1.sidebar {
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+    color: transparent;
+    text-align:center;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+h2.custom-header {
+    font-family: 'Trebuchet MS';
+    font-size: 80px;
+    font-weight: 600;
+    background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+    color: transparent;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    border-right: 4px solid #000;
+    animation: cursor 1s infinite step-end;
+    animation: cursor 1s infinite step-end, typing 15s infinite steps(16);
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+h3.custom-header {
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: inline-block;
+  }
+
+h2.project-header{    
+    text-shadow: 1px 1px 1px #000000,
+    1px 2px 1px #000000,
+    1px 3px 1px #000000,
+    1px 4px 1px #000000,
+    1px 5px 1px #000000,
+    1px 6px 1px #000000;
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    font-weight: 600;
+    color: #ee4b2b;
+    text-align:Justify;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h3.project-sub-header{    
+    
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    font-weight: 600;
+    color: #00c2cb;
+    text-align:justify;
+    background-clip: text;
+    -webkit-background-clip: text;}
+
+@keyframes cursor {
+    0%, 100% { border-color: transparent; }
+    50% { border-color: #000; }
+}
+
+@keyframes typing {
+    0% { width: 0ch; } /*Text is hidden*/
+    30% { width: 11ch; } /*The entire header will be typed out 1 character at a time*/
+    80% { width: 11ch; } /*Text stays visible*/
+    90% { width: 0ch; } /*Text is deleted*/
+    100% { width: 0ch; } /*Text stays hidden*/
+}
+
+p {
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    text-align: justify; 
+    color: rgb(184, 220, 231);
+
+}
+
+
+MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+
