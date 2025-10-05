@@ -6,7 +6,7 @@ st.set_page_config(initial_sidebar_state="auto",layout="wide")
 load_css()
 with st.sidebar:
     col1, col2, col3 = st.columns(3)
-    col2.image(Image.open('.\static\Face_shot_red_hair.jpg'))
+    col2.image(Image.open('.\static\Haslett_Headshot-modified.png'))
 
     st.markdown("<h1 class='sidebar'>Reach Out</h1>", unsafe_allow_html=True)
     icon_size = 20
